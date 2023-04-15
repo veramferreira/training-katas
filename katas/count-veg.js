@@ -12,18 +12,8 @@
 ], 'root') should return 9
 */
 
-function countVeg(arr, type) {
-  let total = 0;
-  if (type.length === 0) {
-    return "please enter your choice of vegetable"
-  }
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i].type === type) {
-      total += arr[i].quantity;
-    }
-  }
 
-  return total;
-}
+
+
 
 module.exports = countVeg;

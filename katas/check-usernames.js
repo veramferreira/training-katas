@@ -6,16 +6,6 @@
   - is no longer than 20 characters
 */
 
-function checkUsernames(usernames) {
-  // const username = usernames.split(" ");
-  // const regex = /^(\w+{5, })$/g;
-  // return regex.test(username);
-  for (let username of usernames) {
-    if (username.length < 5) {
-      return false;
-    }
-  }
-  return true;
-}
+
 
 module.exports = checkUsernames;

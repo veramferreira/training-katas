@@ -5,12 +5,6 @@
   This is because h and e are in 'hello' but not in 'world', and w, r and d are in 'world' but not in 'hello'. hewrd' sorted => 'dehrw'
 */
 
-function getDistinctLetters(str1, str2) {
-  if (str1 === "" && str2 === "") {
-    return "";
-  }
-  // how do I compare the strings
-  //how do I gonna sort the string alphabetically
-}
+
 
 module.exports = getDistinctLetters;

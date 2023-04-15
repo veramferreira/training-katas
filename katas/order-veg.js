@@ -20,10 +20,6 @@ should return:
 ]
 */
 
-function orderVeg(cart) {
-  return cart
-  .filter(veg => veg.hasOwnProperty('quantity'))
-  .sort((a, b) => a.quantity - b.quantity)
-}
+
 
 module.exports = orderVeg;

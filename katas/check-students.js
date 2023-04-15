@@ -8,17 +8,5 @@
   --> false
 */
 
-function checkStudents(students, cohort) {
-  if(cohort.length === 0) {
-    return "no cohort specified"
-  }
-  return students.every(student => student.cohort === cohort)
-}
-
-console.log(checkStudents([
-  {name: 'Ben', cohort: 'April'},
-  {name: 'Amanda', cohort: 'April'},
-  {name: 'Matt', cohort: 'April'}
-], 'January'))
 
 module.exports = checkStudents;
